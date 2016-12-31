@@ -186,7 +186,81 @@ table {
 
 /* Large and up */
 @media screen and (min-width: 64em) {
-	
+	.fullWidth {
+	   width: 100%;
+	   margin-left: auto;
+	   margin-right: auto;
+	   max-width: initial;
+	}
+
+	.hero1 {
+		height: 75vh;
+
+		.hero1text {
+			h1 {
+				font-size: 100px;
+			}
+
+			h2 {
+				font-size: 48px;
+			}
+		}
+	}
+
+	.hero2 {
+		.hero2text {
+			h1 {
+				font-size: 48px;
+				width: 100%;
+				margin-bottom: 30px;
+			}
+
+			h2 {
+				font-size: 32px;
+				width: 100%;
+			}
+		}
+	}
+
+	.hero3 {
+		height: 60vh;
+	}
+
+	.hero4 {
+		position: relative;
+		height: 50vh;
+		.hero4text {
+			position: absolute;
+			top: 50%;
+			transform: translateY(-50%);
+
+			padding: 0px 20px 0px 20px;
+			margin: 0px;
+
+			h1 {
+				font-size: 48px;
+				margin-bottom: 40px;
+			}
+			h2 {
+				font-size: 40px;
+				margin-bottom: 15px;
+			}
+			h3 {
+				font-size: 32px;
+			}
+			a {
+				font-size: 32px;
+			}
+		}
+	}
+
+	.footer {
+		.footerText {
+			h1 {
+				font-size: 24px;
+			}
+		}
+	}
 }
 
 /* Large only */
