@@ -9,12 +9,6 @@
 	],
 "creatorBuild": "25479",
 "files": {
-	"\/.bowerrc": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/.bowerrc",
-		"oF": 0
-		},
 	"\/bower.json": {
 		"ft": 524288,
 		"oA": 1,
@@ -3869,6 +3863,22 @@
 		"oF": 0,
 		"oS": 0
 		},
+	"\/img\/andyteaching.JPG": {
+		"ft": 16384,
+		"iS": 286650,
+		"oA": 0,
+		"oAP": "\/img\/andyteaching.jpg",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/img\/whiteboard.JPG": {
+		"ft": 16384,
+		"iS": 272886,
+		"oA": 0,
+		"oAP": "\/img\/whiteboard.jpg",
+		"oF": 0,
+		"opt": 1
+		},
 	"\/index.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -3947,8 +3957,21 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "css\/app.css",
-		"oF": 0,
-		"oS": 0,
+		"oF": 1,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/scss\/index.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/index.css",
+		"oF": 2,
+		"oS": 3,
 		"uL": 1
 		}
 	},
