@@ -25,7 +25,7 @@ table {
 	margin-top: -40px;
 
 
-	height: 70vh;
+	height: 50vh;
 	background: #fff url('../img/whiteboard.jpg') no-repeat fixed center center;
 	background-size: 150% 100%;
 
@@ -50,6 +50,99 @@ table {
 		h2 {
 			font-size: 24px;
 			letter-spacing: 3px;
+		}
+	}
+}
+
+.hero2 {
+	position: relative;
+	height: 50vh;
+	background-color: #4f299a;
+
+	.hero2text h1, h2 {
+		width: 300px;
+		color: white;
+		font-family: 'Lato';
+		text-align: center;
+	}
+
+	.hero2text {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+
+		h1 {
+			font-weight: 900;
+			letter-spacing: 4px;
+			margin-bottom: 20px;
+		}
+	}
+}
+
+.hero3 {
+	height: 40vh;
+	background: #fff url('../img/andyteaching.jpg') no-repeat left top;
+	background-size: 100% 100%;
+}
+
+.hero4 {
+	background-color: #e1ad2a;
+
+	.hero4text h1, h2, h3 {
+		color: white;
+		font-family: 'Lato';
+		text-align: left;
+	}
+
+	.hero4text {
+
+		padding-top: 20px;
+		margin-bottom: 30px;
+
+		h1 {
+			font-size: 28px;
+			letter-spacing: 2.5px;
+			margin-bottom: 10px;
+		}
+		h2 {
+			font-size: 24px;
+			letter-spacing: 2px;
+		}
+		h3 {
+			font-size: 18px;
+			display: inline;
+			margin-bottom: 5px;
+		}
+		a {
+			color: white;
+			text-decoration: underline;
+		}
+	}
+}
+
+.footer {
+
+	background-color: #3F4045;
+
+	.footerText {
+
+		padding-top: 30px;
+		margin-bottom: 30px;
+
+		h1 {
+			color: white;
+			text-align: center;
+			font-family: 'Lato';
+			padding-bottom: 10px;
+		}
+
+		h1:last-child {
+			margin-top: -10px;
+		}
+
+		h1:nth-last-child(2) {
+			padding-bottom: 0px;
 		}
 	}
 }
