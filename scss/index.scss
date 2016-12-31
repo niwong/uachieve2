@@ -181,6 +181,24 @@ table {
 
 }
 
+/* iphone 6 landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+
+	.hero1 {
+		height: 75vh;
+	}
+	.hero2 {
+		height: 90vh;
+	}
+	.hero3 {
+		height: 70vh;
+	}
+}
+
 /* Medium only */
 @media screen and (min-width: 40em) and (max-width: 63.9375em) {}
 
