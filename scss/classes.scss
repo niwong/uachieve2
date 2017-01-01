@@ -208,7 +208,7 @@ $tertiary-color: #3F4045;
 	}
 
 	.hero2 {
-		height: 65vh;
+		height: 750px;
 
 		.hero2text {
 			padding-top: 50px;
@@ -276,7 +276,7 @@ $tertiary-color: #3F4045;
 
 	.hero2 {
 		/* position already relative */
-		height: 70vh;
+		height: 900px;
 
 		.hero2text {
 			position: absolute;
@@ -285,7 +285,7 @@ $tertiary-color: #3F4045;
 			padding-left: 0;
 			padding-right: 5%;
 
-			margin-top: 30px;
+			margin-top: 50px;
 
 			p {
 				font-size: 32px;
@@ -294,7 +294,13 @@ $tertiary-color: #3F4045;
 	}
 
 	.hero3 {
+
+		height: 300px;
+
 		.hero3text {
+
+			width: 100%;
+
 			h1 {
 				font-size: 48px;
 				display: block;

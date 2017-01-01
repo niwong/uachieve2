@@ -33,8 +33,8 @@ $tertiary-color: #3F4045;
 	position: relative;
 
 	height: 450px;
-	background: #fff url('../img/whiteboard.jpg') no-repeat fixed center center;
-	background-size: 150% 100%;
+	background: #fff url('../img/whiteboard.jpg') no-repeat fixed right center;
+	background-size: 180% 100%;
 
 	.hero1text h1, h2{
 		font-family: 'Lato';
@@ -216,13 +216,23 @@ $tertiary-color: #3F4045;
 	}
 	/* */
 
-
-
+	.hero1 {
+		background: #fff url('../img/whiteboard.jpg') no-repeat fixed center center;
+		background-size: 130% 100%;
+	}
 
 	/* andyteaching res change on tablet */
 	.hero3 {
 		background-position: 50% 50%;
 		background-size: cover;
+	}
+
+	.hero4 {
+		height: 350px;
+
+		.hero4text {
+			margin-top: 50px;
+		}
 	}
 
 }
@@ -272,7 +282,13 @@ $tertiary-color: #3F4045;
 	}
 
 	.hero2 {
+
+		height: 500px;
+
 		.hero2text {
+
+			width: 75%;
+
 			h1 {
 				font-size: 48px;
 				width: 100%;
@@ -292,7 +308,7 @@ $tertiary-color: #3F4045;
 
 	.hero4 {
 		position: relative;
-		height: 50vh;
+		height: 600px;
 		.hero4text {
 			position: absolute;
 			top: 50%;
