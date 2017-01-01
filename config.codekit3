@@ -3853,6 +3853,12 @@
 		"rFN": 0,
 		"uCM": 0
 		},
+	"\/classes.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/classes.html",
+		"oF": 0
+		},
 	"\/css\/app.css": {
 		"aP": 0,
 		"bl": 0,
@@ -3860,6 +3866,16 @@
 		"ma": 0,
 		"oA": 2,
 		"oAP": "\/css\/app-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/css\/classes.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/css\/classes-min.css",
 		"oF": 0,
 		"oS": 0
 		},
@@ -3969,6 +3985,19 @@
 		"oAP": "css\/app.css",
 		"oF": 1,
 		"oS": 3,
+		"uL": 1
+		},
+	"\/scss\/classes.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/classes.css",
+		"oF": 2,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/scss\/index.scss": {
