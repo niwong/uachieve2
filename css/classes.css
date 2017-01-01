@@ -27,22 +27,19 @@
     font-family: 'Lato';
     color: white;
     font-weight: 900;
-    text-align: center; }
+    text-align: left; }
   .hero1 .hero1text {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%); }
+    bottom: 5%;
+    left: 5%; }
     .hero1 .hero1text h1 {
-      font-size: 48px;
-      letter-spacing: 4.5px; }
-    .hero1 .hero1text h2 {
-      font-size: 24px;
-      letter-spacing: 3px; }
+      font-size: 36px;
+      letter-spacing: 4.5px;
+      margin-bottom: 0px; }
 
 .hero2 {
   position: relative;
-  height: 50vh;
+  height: 101vh;
   background-color: #4f299a; }
   .hero2 .hero2text h1, .hero2 h2 {
     width: 300px;
@@ -50,10 +47,7 @@
     font-family: 'Lato';
     text-align: center; }
   .hero2 .hero2text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%); }
+    padding-top: 20px; }
     .hero2 .hero2text h1 {
       font-size: 24px;
       font-weight: 900;
@@ -61,37 +55,39 @@
       margin-bottom: 20px; }
     .hero2 .hero2text h2 {
       font-size: 20px; }
+    .hero2 .hero2text p {
+      color: white;
+      text-align: left;
+      font-family: 'Lato';
+      width: 100%;
+      font-size: 18px; }
 
 .hero3 {
-  height: 40vh;
-  background: #fff url("../img/andyteaching.jpg") no-repeat left top;
-  background-size: 100% 100%; }
-
-.hero4 {
-  background-color: #e1ad2a; }
-  .hero4 .hero4text h1, .hero4 h2, .hero4 h3 {
+  background-color: #e1ad2a;
+  position: relative;
+  height: 40vh; }
+  .hero3 .hero3text h1 {
     color: white;
     font-family: 'Lato';
-    text-align: left; }
-  .hero4 .hero4text {
-    padding-top: 20px;
-    margin-bottom: 30px; }
-    .hero4 .hero4text h1 {
+    display: inline-block; }
+  .hero3 .hero3text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center; }
+    .hero3 .hero3text h1 {
       font-size: 28px;
       letter-spacing: 2.5px;
-      margin-bottom: 10px; }
-    .hero4 .hero4text h2 {
-      font-size: 24px;
-      letter-spacing: 2px; }
-    .hero4 .hero4text h3 {
-      font-size: 20px;
-      display: inline;
-      margin-bottom: 5px; }
-    .hero4 .hero4text a {
+      margin-bottom: 10px;
+      width: 100%; }
+    .hero3 .hero3text a {
       color: white;
-      text-decoration: underline;
+      background-color: #4f299a;
+      border-radius: 10px;
       font-family: 'Lato';
-      font-size: 18px; }
+      font-size: 32px;
+      text-align: center; }
 
 .footer {
   background-color: #3F4045; }
@@ -123,20 +119,14 @@
   .top-bar, .top-bar ul {
     padding: 10px; }
     .top-bar li, .top-bar ul li {
-      border: none; }
-  /* andyteaching res change on tablet */
-  .hero3 {
-    background-position: 50% 50%;
-    background-size: cover; } }
+      border: none; } }
 
 /* iphone 6 landscape */
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
   .hero1 {
     height: 75vh; }
   .hero2 {
-    height: 90vh; }
-  .hero3 {
-    height: 70vh; } }
+    height: 90vh; } }
 
 /* Medium only */
 /* Large and up */
@@ -160,25 +150,23 @@
     font-size: 32px;
     width: 100%; }
   .hero3 {
-    height: 60vh; }
-  .hero4 {
     position: relative;
     height: 50vh; }
-    .hero4 .hero4text {
+    .hero3 .hero3text {
       position: absolute;
       top: 50%;
       transform: translateY(-50%);
       padding: 0px 20px 0px 20px;
       margin: 0px; }
-      .hero4 .hero4text h1 {
+      .hero3 .hero3text h1 {
         font-size: 48px;
         margin-bottom: 40px; }
-      .hero4 .hero4text h2 {
+      .hero3 .hero3text h2 {
         font-size: 40px;
         margin-bottom: 15px; }
-      .hero4 .hero4text h3 {
+      .hero3 .hero3text h3 {
         font-size: 32px; }
-      .hero4 .hero4text a {
+      .hero3 .hero3text a {
         font-size: 32px; }
   .footer .footerText h1 {
     font-size: 24px; } }

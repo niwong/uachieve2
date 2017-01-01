@@ -40,30 +40,25 @@ $tertiary-color: #3F4045;
 		font-family: 'Lato';
 		color: white;
 		font-weight: 900;
-		text-align: center;
+		text-align: left;
 	}
 
 	.hero1text {
 		position: absolute;
-		top: 50%;
-		left: 50%;
-		transform: translate(-50%, -50%);
+		bottom: 5%;
+		left: 5%;
 
 		h1 {
-			font-size: 48px;
+			font-size: 36px;
 			letter-spacing: 4.5px;
-		}
-
-		h2 {
-			font-size: 24px;
-			letter-spacing: 3px;
+			margin-bottom: 0px;
 		}
 	}
 }
 
 .hero2 {
 	position: relative;
-	height: 50vh;
+	height: 101vh;
 	background-color: $primary-color;
 
 	.hero2text h1, h2 {
@@ -74,10 +69,7 @@ $tertiary-color: #3F4045;
 	}
 
 	.hero2text {
-		position: absolute;
-		top: 50%;
-		left: 50%;
-		transform: translate(-50%, -50%);
+		padding-top: 20px;
 
 		h1 {
 			font-size: 24px;
@@ -89,48 +81,49 @@ $tertiary-color: #3F4045;
 		h2 {
 			font-size: 20px;
 		}
+
+		p {
+			color: white;
+			text-align: left;
+			font-family: 'Lato';
+			width: 100%;
+			font-size: 18px;
+		}
 	}
 }
 
 .hero3 {
-	height: 40vh;
-	background: #fff url('../img/andyteaching.jpg') no-repeat left top;
-	background-size: 100% 100%;
-}
-
-.hero4 {
 	background-color: $secondary-color;
+	position: relative;
+	height: 40vh;
 
-	.hero4text h1, h2, h3 {
+	.hero3text h1 {
 		color: white;
 		font-family: 'Lato';
-		text-align: left;
+		display: inline-block;
 	}
 
-	.hero4text {
-
-		padding-top: 20px;
-		margin-bottom: 30px;
+	.hero3text {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		text-align: center;
 
 		h1 {
 			font-size: 28px;
 			letter-spacing: 2.5px;
 			margin-bottom: 10px;
+			width: 100%;
 		}
-		h2 {
-			font-size: 24px;
-			letter-spacing: 2px;
-		}
-		h3 {
-			font-size: 20px;
-			display: inline;
-			margin-bottom: 5px;
-		}
+
 		a {
 			color: white;
-			text-decoration: underline;
+			background-color: $primary-color;
+			border-radius: 10px;
 			font-family: 'Lato';
-			font-size: 18px;
+			font-size: 32px;
+			text-align: center;
 		}
 	}
 }
@@ -192,12 +185,6 @@ $tertiary-color: #3F4045;
 		}
 	}
 
-	/* andyteaching res change on tablet */
-	.hero3 {
-		background-position: 50% 50%;
-		background-size: cover;
-	}
-
 }
 
 /* iphone 6 landscape */
@@ -212,9 +199,6 @@ $tertiary-color: #3F4045;
 	}
 	.hero2 {
 		height: 90vh;
-	}
-	.hero3 {
-		height: 70vh;
 	}
 }
 
@@ -260,13 +244,9 @@ $tertiary-color: #3F4045;
 	}
 
 	.hero3 {
-		height: 60vh;
-	}
-
-	.hero4 {
 		position: relative;
 		height: 50vh;
-		.hero4text {
+		.hero3text {
 			position: absolute;
 			top: 50%;
 			transform: translateY(-50%);
