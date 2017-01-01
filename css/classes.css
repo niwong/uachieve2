@@ -34,7 +34,7 @@
     left: 5%; }
     .hero1 .hero1text h1 {
       font-size: 36px;
-      letter-spacing: 4.5px;
+      letter-spacing: 4px;
       margin-bottom: 0px; }
 
 .hero2 {
@@ -112,8 +112,24 @@
     padding: 10px; }
     .top-bar li, .top-bar ul li {
       border: none; }
+  /* right side links */
+  .top-bar a, .top-bar ul a {
+    font-size: 20px;
+    font-weight: 600; }
+  /* left side header */
+  .top-bar-left .menu a {
+    font-size: 36px; }
+  /* quick fix for scaling nav */
+  .top-bar {
+    position: relative; }
+  .top-bar-right {
+    position: absolute;
+    top: 50%;
+    right: 2%;
+    transform: translateY(-50%); }
+  /* */
   .hero1 {
-    height: 40vh; }
+    height: 450px; }
     .hero1 .hero1text h1 {
       font-size: 48px; }
   .hero2 {

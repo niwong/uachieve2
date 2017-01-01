@@ -50,7 +50,7 @@ $tertiary-color: #3F4045;
 
 		h1 {
 			font-size: 36px;
-			letter-spacing: 4.5px;
+			letter-spacing: 4px;
 			margin-bottom: 0px;
 		}
 	}
@@ -173,8 +173,32 @@ $tertiary-color: #3F4045;
 		}
 	}
 
+	/* right side links */
+	.top-bar a, .top-bar ul a {
+		font-size: 20px;
+		font-weight: 600;
+	}
+
+	/* left side header */
+	.top-bar-left .menu a {
+		font-size: 36px;
+	}
+
+	/* quick fix for scaling nav */
+	.top-bar {
+		position: relative;
+	}
+
+	.top-bar-right {
+		position: absolute;
+		top: 50%;
+		right: 2%;
+		transform: translateY(-50%);
+	}
+	/* */
+
 	.hero1 {
-		height: 40vh;
+		height: 450px;
 
 		.hero1text {
 			h1 {
@@ -207,7 +231,6 @@ $tertiary-color: #3F4045;
 			}
 		}
 	}
-
 }
 
 /* iphone 6 landscape */
@@ -239,6 +262,7 @@ $tertiary-color: #3F4045;
 	   margin-right: auto;
 	   max-width: initial;
 	}
+
 
 	.hero1 {
 		height: 75vh;

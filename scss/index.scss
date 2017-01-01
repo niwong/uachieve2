@@ -32,7 +32,7 @@ $tertiary-color: #3F4045;
 .hero1 {
 	position: relative;
 
-	height: 50vh;
+	height: 450px;
 	background: #fff url('../img/whiteboard.jpg') no-repeat fixed center center;
 	background-size: 150% 100%;
 
@@ -191,6 +191,33 @@ $tertiary-color: #3F4045;
 			border: none;
 		}
 	}
+
+	/* right side links */
+	.top-bar a, .top-bar ul a {
+		font-size: 20px;
+		font-weight: 600;
+	}
+
+	/* left side header */
+	.top-bar-left .menu a {
+		font-size: 36px;
+	}
+
+	/* quick fix for scaling nav */
+	.top-bar {
+		position: relative;
+	}
+
+	.top-bar-right {
+		position: absolute;
+		top: 50%;
+		right: 2%;
+		transform: translateY(-50%);
+	}
+	/* */
+
+
+
 
 	/* andyteaching res change on tablet */
 	.hero3 {
