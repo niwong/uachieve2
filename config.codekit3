@@ -3889,7 +3889,17 @@
 		"oF": 0,
 		"oS": 0
 		},
-	"\/img\/andyteaching.JPG": {
+	"\/css\/signup.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/css\/signup-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/img\/andyteaching.jpg": {
 		"ft": 16384,
 		"iS": 286650,
 		"oA": 0,
@@ -3897,7 +3907,7 @@
 		"oF": 0,
 		"opt": 1
 		},
-	"\/img\/whiteboard.JPG": {
+	"\/img\/whiteboard.jpg": {
 		"ft": 16384,
 		"iS": 272886,
 		"oA": 0,
@@ -3997,7 +4007,7 @@
 		"oA": 0,
 		"oAP": "\/css\/classes.css",
 		"oF": 2,
-		"oS": 0,
+		"oS": 3,
 		"uL": 1
 		},
 	"\/scss\/index.scss": {
@@ -4012,6 +4022,25 @@
 		"oF": 2,
 		"oS": 3,
 		"uL": 1
+		},
+	"\/scss\/signup.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/signup.css",
+		"oF": 3,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/signup.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/signup.html",
+		"oF": 0
 		}
 	},
 "hooks": [
