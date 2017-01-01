@@ -63,10 +63,39 @@ $tertiary-color: #3F4045;
 }
 
 .hero2 {
-	height: 475px;
+	height: 700px;
+	background-color: $secondary-color;
+
+	.hero2text {
+		margin-top: 30px;
+		h1, h2, p {
+			font-family: 'Lato';
+			color: white;
+		}
+
+		h1 {
+			font-size: 32px;
+			text-align: center;
+		}
+		h2 {
+			font-size: 28px;
+		}
+		p {
+			font-size: 20px;
+		}
+	}
+
+	.hero2table {
+		margin-bottom: 20px;
+	}
+}
+
+.hero3 {
+	height: 500px;
 	background-color: $primary-color;
 
-	.hero2form {
+	.hero3form {
+		margin-top: 20px;
 		text-align: center;
 
 		padding-left: 10px;
@@ -83,43 +112,6 @@ $tertiary-color: #3F4045;
 			font-family: 'Lato';
 			display: inline-block;
 			border-radius: 5px;
-			font-size: 18px;
-		}
-	}
-}
-
-.hero3 {
-	background-color: $secondary-color;
-
-	.hero3text h1, h2, h3 {
-		color: white;
-		font-family: 'Lato';
-		text-align: left;
-	}
-
-	.hero3text {
-
-		padding-top: 20px;
-		margin-bottom: 30px;
-
-		h1 {
-			font-size: 28px;
-			letter-spacing: 2.5px;
-			margin-bottom: 10px;
-		}
-		h2 {
-			font-size: 24px;
-			letter-spacing: 2px;
-		}
-		h3 {
-			font-size: 20px;
-			display: inline;
-			margin-bottom: 5px;
-		}
-		a {
-			color: white;
-			text-decoration: underline;
-			font-family: 'Lato';
 			font-size: 18px;
 		}
 	}
@@ -210,6 +202,13 @@ $tertiary-color: #3F4045;
 		height: 550px;
 	}
 
+	.hero2 {
+		height: 500px;
+	}
+
+	.hero3 {
+		height: 350px;
+	}
 }
 
 /* iphone 6 landscape */
@@ -218,7 +217,7 @@ $tertiary-color: #3F4045;
   and (max-device-width: 667px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
-	.hero2 {
+	.hero3 {
 		height: 90vh;
 	}
 }
@@ -250,8 +249,8 @@ $tertiary-color: #3F4045;
 		}
 	}
 
-	.hero2 {
-		.hero2text {
+	.hero3 {
+		.hero3text {
 			h1 {
 				font-size: 48px;
 				width: 100%;
@@ -261,35 +260,6 @@ $tertiary-color: #3F4045;
 			h2 {
 				font-size: 32px;
 				width: 100%;
-			}
-		}
-	}
-
-	.hero3 {
-		position: relative;
-		height: 50vh;
-
-		.hero3text {
-			position: absolute;
-			top: 50%;
-			transform: translateY(-50%);
-
-			padding: 0px 20px 0px 20px;
-			margin: 0px;
-
-			h1 {
-				font-size: 48px;
-				margin-bottom: 40px;
-			}
-			h2 {
-				font-size: 40px;
-				margin-bottom: 15px;
-			}
-			h3 {
-				font-size: 32px;
-			}
-			a {
-				font-size: 32px;
 			}
 		}
 	}
