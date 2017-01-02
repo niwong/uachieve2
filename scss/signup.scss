@@ -106,13 +106,14 @@ $tertiary-color: #3F4045;
 			color: white;
 			font-family: 'Lato';
 		}
-
-		#submit {
+		
+		button {
 			background-color: $secondary-color;
 			font-family: 'Lato';
 			display: inline-block;
+			color: white;
+			padding: 15px;
 			border-radius: 5px;
-			font-size: 18px;
 		}
 	}
 }
