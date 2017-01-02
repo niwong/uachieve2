@@ -3925,8 +3925,8 @@
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "js\/min\/app-min.js",
-		"oF": 0,
+		"oAP": "\/js\/min\/app-min.js",
+		"oF": 2,
 		"sC": 1,
 		"tS": 1
 		},
