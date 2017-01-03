@@ -80,6 +80,7 @@ $tertiary-color: #3F4045;
 	}
 
 	.hero2table {
+		margin-top: 30px;
 		margin-bottom: 50px;
 	}
 }
@@ -288,7 +289,7 @@ $tertiary-color: #3F4045;
 		height: auto;
 
 		.hero2text {
-			height: 800px !important;
+			height: 1000px !important;
 			padding: 0px 20px;
 			margin-top: 100px;
 
@@ -327,10 +328,10 @@ $tertiary-color: #3F4045;
 
 @media screen and (min-width: 1140px) {
 	.hero2 {
-		height: 1000px;
+		height: auto;
 
 		.hero2text {
-			height: 650px !important;
+			height: 860px !important;
 		}
 	}
 }
